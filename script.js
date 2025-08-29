@@ -14,6 +14,6 @@ function mincost(arr)
   }
   return cost;
 }
+  let arr = [1, 2, 3, 4, 5];  // ✅ define the array here
+    alert(mincost(arr));  
 
-module.exports=mincost;
-console.log(mincost([4, 3, 2, 6])); 
